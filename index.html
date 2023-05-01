@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Chess Game" />
+    <meta name="keywords" content="html, css" />
+    <meta name="author" content="xonika9" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Твой ход!</title>
+  </head>
+  <body>
+    <section class="main">
+      <h1 class="main__title">Твой ход!</h1>
+      <h2 class="main__subtitle">
+        Привет, тебя пригласили на шахматный турнир!
+      </h2>
+      <p class="main__text">
+        Чтобы сыграть, тебе нужно зарегистрироваться на сайте
+        <a href="https://www.chess.com" class="main__link" target="_blank"
+          >chess.com</a
+        >
+        и добавить
+        <a
+          href="https://www.chess.com/member/xonika9"
+          class="main__link"
+          target="_blank"
+          >xonika9</a
+        >
+        в друзья
+      </p>
+      <p class="main__text">
+        Затем жми "Отправить вызов", создавай игру и жми "Играть". Я получу
+        уведомление и присоединюсь к игре
+      </p>
+
+      <details class="main__details">
+        <summary>Инструкция</summary>
+        <img src="/image1.png" alt="chess profile" class="main__invite-image" />
+        <img src="/image2.png" alt="chess profile" class="main__invite-image" />
+      </details>
+
+      <h2 class="main__subtitle">Важно!</h2>
+      <p class="main__text">
+        Chess.com работает только с VPN. Если у тебя нет, я могу поделиться
+        своим
+      </p>
+      <p class="main__text">
+        Установи
+        <a
+          href="https://www.wireguard.com/install/"
+          class="main__link"
+          target="_blank"
+          >клиент Wireguard</a
+        >
+        на свое устройство. Добавь конфиг через
+        <a href="/qrcode.svg" class="main__link" target="_blank">QR-код</a>
+        или
+        <a download href="/chess.conf" class="main__link" target="_blank"
+          >файл</a
+        >
+      </p>
+    </section>
+  </body>
+</html>

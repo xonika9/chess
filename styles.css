@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+/* Стили для основного контента */
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem;
+  min-width: 320px;
+  min-height: 100vh;
+  max-width: 1280px;
+  background-image: url('/chessboard.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Стили для заголовков */
+.main__title {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main__subtitle {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Стили для абзацев и ссылок */
+.main__text {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.main__link {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.main__link:hover {
+  text-decoration: underline;
+}
+
+/* Стили для изображений */
+.main__invite-image {
+  margin-bottom: 1rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.main__details {
+  display: flex;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
