@@ -18,8 +18,10 @@
     <title>Твой ход!</title>
   </head>
   <body>
-    <section class="main">
-      <h1 class="main__title">Твой ход!</h1>
+    <header class="header">
+      <h1 class="header__title">Твой ход!</h1>
+    </header>
+    <main class="main">
       <h2 class="main__subtitle">
         Привет, тебя пригласили на шахматный турнир!
       </h2>
@@ -28,30 +30,43 @@
         <a href="https://www.chess.com" class="main__link" target="_blank"
           >chess.com</a
         >
-        и добавить
+        или в мобильном приложении для
+        <a
+          href="https://apps.apple.com/us/app/chess-play-learn/id329218549?mt=8&uo=4"
+          class="main__link"
+          target="_blank"
+          >iOS</a
+        >
+        или
+        <a
+          href="https://play.google.com/store/apps/details?id=com.chess&pli=1"
+          class="main__link"
+          target="_blank"
+          >Android</a
+        >.
+      </p>
+      <p class="main__text">
+        Добавь
         <a
           href="https://www.chess.com/member/xonika9"
           class="main__link"
           target="_blank"
           >xonika9</a
         >
-        в друзья
+        в друзья. Затем жми "Отправить вызов", выбери параметры и жми "Играть".
       </p>
-      <p class="main__text">
-        Затем жми "Отправить вызов", создавай игру и жми "Играть". Я получу
-        уведомление и присоединюсь к игре
-      </p>
-
+      <p class="main__text">Я получу уведомление и присоединюсь к игре.</p>
       <details class="main__details">
         <summary>Инструкция</summary>
         <img src="/image1.png" alt="chess profile" class="main__invite-image" />
         <img src="/image2.png" alt="chess profile" class="main__invite-image" />
       </details>
-
       <h2 class="main__subtitle">Важно!</h2>
       <p class="main__text">
-        Chess.com работает только с VPN. Если у тебя нет, я могу поделиться
-        своим
+        <a href="https://www.chess.com" class="main__link" target="_blank"
+          >Chess.com</a
+        >
+        может не работать без VPN. Если у тебя нет VPN, я могу поделиться своим.
       </p>
       <p class="main__text">
         Установи
@@ -66,8 +81,19 @@
         или
         <a download href="/chess.conf" class="main__link" target="_blank"
           >файл</a
-        >
+        >.
       </p>
-    </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__copyright main__text">© 2023</div>
+      <div class="footer__links">
+        <a
+          href="https://github.com/xonika9/chess"
+          class="footer__link main__link"
+          target="_blank"
+          >github</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
